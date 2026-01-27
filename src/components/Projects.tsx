@@ -95,7 +95,7 @@ export function Projects() {
       demoLink: "https://github.com/hamzafareed01/Scrolling-Game-Python"
     },
   {
-  title: "PulseRisk — Real-Time Payment Risk Scoring + Alerting + Recon & Explain",
+  title: "PulseRisk — Payments Risk Platform",
   outcome:
     "Azure-native microservices that score payment risk in real time, raise alerts, manage cases, and explain mismatches via nightly reconciliation",
   description:
