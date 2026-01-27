@@ -61,6 +61,32 @@ export function Education() {
       demonstrates:
         "Deep understanding of OS internals—scheduling, memory, file systems, deadlocks, and protection—through projects using UNIX/Windows system calls.",
     },
+    {
+  title: "CST 378 — Software Engineering II",
+  demonstrates:
+    "Agile delivery in teams: sprint planning, risk management, quality + test strategy, configuration management, and shipping increments with reviews—mirrors real SDLC used in SWE/DevOps orgs.",
+},
+{
+  title: "CST 333 — Database Systems",
+  demonstrates:
+    "Strong SQL + data modeling: relational design, normalization, constraints/triggers, indexing, recursive queries (CTEs), and query optimization—skills used in backend services, analytics, and performance tuning.",
+},
+{
+  title: "CST 355 — Cryptography",
+  demonstrates:
+    "Security fundamentals for modern systems: symmetric/asymmetric crypto (RSA), hashes (SHA), MACs, signatures, and key exchange—applied to auth, secure APIs, data-at-rest encryption, and secure communications.",
+},
+{
+  title: "CST 361 — Deep Learning",
+  demonstrates:
+    "ML foundations with implementation: neural nets, training workflows, and applied DL using Python + TensorFlow/Keras—useful for analytics, experimentation, and productionizing models (MLOps mindset).",
+},
+{
+  title: "Database Accounting Systems",
+  demonstrates:
+    "Designing transactional database applications for accounting workflows: integrity controls, audit trails, and reporting over transaction cycles—relevant to data analytics, financial systems, and compliance-minded backend design.",
+},
+
   ];
 
   const selectedCourse =
@@ -197,7 +223,7 @@ export function Education() {
                       <button
                         type="button"
                         onClick={() => setSelectedCourseIndex(null)}
-                        className="shrink-0 px-3 py-1 rounded-lg bg-white/5 border border-white/10 text-gray-300 hover:text-white hover;border-[#0078d4]/50 transition-all"
+                        className="shrink-0 px-3 py-1 rounded-lg bg-white/5 border border-white/10 text-gray-300 hover:text-white hover:border-[#0078d4]/50 transition-all"
                         aria-label="Close coursework details"
                       >
                         Close
