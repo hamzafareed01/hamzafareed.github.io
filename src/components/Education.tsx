@@ -62,22 +62,22 @@ export function Education() {
         "Deep understanding of OS internals—scheduling, memory, file systems, deadlocks, and protection—through projects using UNIX/Windows system calls.",
     },
     {
-  title: "CST 378 — Software Engineering II",
+  title: "Software Engineering II",
   demonstrates:
     "Agile delivery in teams: sprint planning, risk management, quality + test strategy, configuration management, and shipping increments with reviews—mirrors real SDLC used in SWE/DevOps orgs.",
 },
 {
-  title: "CST 333 — Database Systems",
+  title: "SQL Database Systems",
   demonstrates:
     "Strong SQL + data modeling: relational design, normalization, constraints/triggers, indexing, recursive queries (CTEs), and query optimization—skills used in backend services, analytics, and performance tuning.",
 },
 {
-  title: "CST 355 — Cryptography",
+  title: "Cryptography",
   demonstrates:
     "Security fundamentals for modern systems: symmetric/asymmetric crypto (RSA), hashes (SHA), MACs, signatures, and key exchange—applied to auth, secure APIs, data-at-rest encryption, and secure communications.",
 },
 {
-  title: "CST 361 — Deep Learning",
+  title: "ML Deep Learning",
   demonstrates:
     "ML foundations with implementation: neural nets, training workflows, and applied DL using Python + TensorFlow/Keras—useful for analytics, experimentation, and productionizing models (MLOps mindset).",
 },
