@@ -1,6 +1,6 @@
     import { motion, useInView, AnimatePresence } from "motion/react";
 import { useRef, useState, useEffect } from "react";
-import ruLogo from "@/assets/Roosevelt University logo.jpeg";
+import ruLogo from "@/assets/roosevelt-university-logo.jpg";
 
 
 export function Education() {
@@ -118,13 +118,13 @@ export function Education() {
 
           <div className="relative z-10">
             <div className="flex items-start gap-6 mb-6">
-              <img
-                <img
+            <img
   src={ruLogo}
   alt="Roosevelt University Logo"
   className="w-16 h-16 object-contain"
   loading="lazy"
 />
+
                 alt="Roosevelt University Logo"
                 className="w-16 h-16 object-contain"
               />
